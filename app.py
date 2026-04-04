@@ -24,7 +24,7 @@ class Bookmark(db.Model):
     product_id = db.Column(db.String(255), unique=True, nullable=False)
     name = db.Column(db.String(500), nullable=False)
     source = db.Column(db.String(100))
-    category = db.Columl(db.String(100))
+    category = db.Column(db.String(100))
     trend_score = db.Column(db.Integer, default=0)
     link = db.Column(db.String(1000))
     description = db.Column(db.Text)
