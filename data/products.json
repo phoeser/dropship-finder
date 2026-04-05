@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "name": "LED Strip Lights 10m RGB",
+    "category": "Smart Home",
+    "description": "Flexibler 10m LED-Streifen mit 16 Mio. Farben, App-Steuerung via Bluetooth und Musiksynchronisation. Ideal für Schlafzimmer, Gaming-Setups oder Wohnzimmer.",
+    "buy_price": 4.20,
+    "sell_price": 24.99,
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=280&fit=crop",
+    "aliexpress_url": "https://www.aliexpress.com/wholesale?SearchText=led+strip+lights+rgb+10m"
+  },
+  {
+    "id": 2,
+    "name": "Magnetisches KFZ-Handyhalter",
+    "category": "Auto-Zubehör",
+    "description": "Starker Neodym-Magnet, 360° drehbar, kompatibel mit allen Smartphones. Einfache Montage auf Lüftungsschlitzen.",
+    "buy_price": 2.50,
+    "sell_price": 15.99,
+    "image": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=400&h=280&fit=crop",
+    "aliexpress_url": "https://www.aliexpress.com/wholesale?SearchText=magnetic+car+phone+holder"
+  },
+  {
+    "id": 3,
+    "name": "Haltungskorrektur-Gürtel",
+    "category": "Gesundheit",
+    "description": "Ergonomisch geformter Rückenstabilisator aus atmungsaktivem Material. Korrigiert Rundrücken und lindert Rückenschmerzen.",
+    "buy_price": 5.80,
+    "sell_price": 32.99,
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=280&fit=crop",
+    "aliexpress_url": "https://www.aliexpress.com/wholesale?SearchText=posture+corrector+back+brace"
+  },
+  {
+    "id": 4,
+    "name": "Elektrisches Nagelfräser-Set",
+    "category": "Beauty",
+    "description": "Professionelles 11-teiliges Nagelstudio-Set mit 6 Geschwindigkeitsstufen. Für Maniküre, Pediküre und Nageldesign.",
+    "buy_price": 9.50,
+    "sell_price": 44.99,
+    "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=400&h=280&fit=crop",
+    "aliexpress_url": "https://www.aliexpress.com/wholesale?SearchText=electric+nail+drill+kit"
+  },
+  {
+    "id": 5,
+    "name": "Tragbarer USB-Mixer",
+    "category": "Küche",
+    "description": "Kompakter Smoothie-Mixer mit 6 Klingen und USB-C Aufladung. 400ml BPA-freier Tritan-Behälter für Shakes und Smoothies.",
+    "buy_price": 7.80,
+    "sell_price": 36.99,
+    "image": "https://images.unsplash.com/photo-1546549032-9571cd6b27df?w=400&h=280&fit=crop",
+    "aliexpress_url": "https://www.aliexpress.com/wholesale?SearchText=portable+usb+blender+smoothie"
+  },
+  {
+    "id": 6,
+    "name": "Silikon-Backmatten Set (2er)",
+    "category": "Küche",
+    "description": "Wiederverwendbare antihaftbeschichtete Silikonmatten. Hitzebeständig bis 230°C, spülmaschinenfest.",
+    "buy_price": 3.50,
+    "sell_price": 19.99,
+    "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=280&fit=crop",
+    "aliexpress_url": "https://www.aliexpress.com/wholesale?SearchText=silicone+baking+mat+set"
+  },
+  {
+    "id": 7,
+    "name": "TWS Bluetooth Kopfhörer",
+    "category": "Elektronik",
+    "description": "True Wireless Stereo Earbuds mit aktiver Geräuschunterdrückung, 30h Gesamtlaufzeit und IPX5 Wasserschutz.",
+    "buy_price": 10.50,
+    "sell_price": 49.99,
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400&h=280&fit=crop",
+    "aliexpress_url": "https://www.aliexpress.com/wholesale?SearchText=tws+wireless+earbuds+anc"
+  },
+  {
+    "id": 8,
+    "name": "Fitness Smartwatch",
+    "category": "Elektronik",
+    "description": "Fitness-Tracker mit Herzfrequenz-, SpO2- und Schlafüberwachung. 7 Tage Akku, 15 Sportmodi, IP68-Wasserdichtigkeit.",
+    "buy_price": 13.00,
+    "sell_price": 64.99,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=280&fit=crop",
+    "aliexpress_url": "https://www.aliexpress.com/wholesale?SearchText=fitness+smartwatch+heart+rate"
+  },
+  {
+    "id": 9,
+    "name": "Tierhaarbürste und Flusenroller",
+    "category": "Haustier",
+    "description": "Selbstreinigender Flauschentferner aus Silikon. Entfernt Tierhaare von Sofas, Textilien und Autositzen in Sekunden.",
+    "buy_price": 2.80,
+    "sell_price": 16.99,
+    "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=280&fit=crop",
+    "aliexpress_url": "https://www.aliexpress.com/wholesale?SearchText=pet+hair+remover+roller+reusable"
+  },
+  {
+    "id": 10,
+    "name": "Elektrisches Nacken-Massagegerät",
+    "category": "Gesundheit",
+    "description": "EMS-Massagegerät mit Wärme, 15 Intensitätsstufen und 6 Modi. Lindert Verspannungen in Nacken und Schultern.",
+    "buy_price": 12.50,
+    "sell_price": 59.99,
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=280&fit=crop",
+    "aliexpress_url": "https://www.aliexpress.com/wholesale?SearchText=electric+neck+massager+ems"
+  },
+  {
+    "id": 11,
+    "name": "Ergonomischer Laptop-Ständer",
+    "category": "Home Office",
+    "description": "Faltbarer Aluminiumständer mit 6-fach verstellbarer Höhe. Kompatibel mit Laptops von 10 bis 17 Zoll.",
+    "buy_price": 7.50,
+    "sell_price": 37.99,
+    "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=400&h=280&fit=crop",
+    "aliexpress_url": "https://www.aliexpress.com/wholesale?SearchText=foldable+laptop+stand+aluminum"
+  },
+  {
+    "id": 12,
+    "name": "Digitale Küchenwaage",
+    "category": "Küche",
+    "description": "Präzisionswaage mit 0,1g Auflösung und 10kg Kapazität. Inkl. Tara-Funktion, LCD-Display. Ideal für Backen und Meal Prep.",
+    "buy_price": 4.80,
+    "sell_price": 24.99,
+    "image": "https://images.unsplash.com/photo-1585837575652-267686ea6f68?w=400&h=280&fit=crop",
+    "aliexpress_url": "https://www.aliexpress.com/wholesale?SearchText=digital+kitchen+scale+precision"
+  },
+  {
+    "id": 13,
+    "name": "Widerstandsbänder Set (5 Stärken)",
+    "category": "Sport und Fitness",
+    "description": "5 Latex-Bänder in verschiedenen Widerstandsstufen plus Tragebeutel. Für Krafttraining, Yoga und Home-Workouts.",
+    "buy_price": 4.20,
+    "sell_price": 22.99,
+    "image": "https://images.unsplash.com/photo-1598300056393-4aac492f4344?w=400&h=280&fit=crop",
+    "aliexpress_url": "https://www.aliexpress.com/wholesale?SearchText=resistance+bands+set+latex"
+  },
+  {
+    "id": 14,
+    "name": "Mini USB-Luftbefeuchter",
+    "category": "Smart Home",
+    "description": "Leiser Ultraschall-Vernebler mit buntem LED-Nachtlicht und 7h Laufzeit. USB-betrieben, 250ml Tank.",
+    "buy_price": 5.50,
+    "sell_price": 27.99,
+    "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=400&h=280&fit=crop",
+    "aliexpress_url": "https://www.aliexpress.com/wholesale?SearchText=mini+usb+humidifier+desk"
+  },
+  {
+    "id": 15,
+    "name": "Smartphone Objektiv-Set",
+    "category": "Fotografie",
+    "description": "4-in-1 Kamera-Linsen-Kit: Fisheye, Weitwinkel, Makro und Teleobjektiv. Universalclip für alle Smartphones.",
+    "buy_price": 4.50,
+    "sell_price": 24.99,
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400&h=280&fit=crop",
+    "aliexpress_url": "https://www.aliexpress.com/wholesale?SearchText=smartphone+camera+lens+kit"
+  },
+  {
+    "id": 16,
+    "name": "Kompressionssocken (3 Paar)",
+    "category": "Gesundheit",
+    "description": "Medizinische Stützstrümpfe aus atmungsaktivem Nylon. Reduzieren müde Beine und Schwellungen.",
+    "buy_price": 3.80,
+    "sell_price": 21.99,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=280&fit=crop",
+    "aliexpress_url": "https://www.aliexpress.com/wholesale?SearchText=compression+socks+medical+3+pairs"
+  },
+  {
+    "id": 17,
+    "name": "Ergonomische Handgelenkauflage",
+    "category": "Home Office",
+    "description": "Memory-Foam Tastatur-Handballenauflage mit rutschfester Unterseite. Verhindert RSI-Beschwerden beim Tippen.",
+    "buy_price": 4.50,
+    "sell_price": 23.99,
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400&h=280&fit=crop",
+    "aliexpress_url": "https://www.aliexpress.com/wholesale?SearchText=keyboard+wrist+rest+memory+foam"
+  },
+  {
+    "id": 18,
+    "name": "Powerbank 10.000 mAh",
+    "category": "Elektronik",
+    "description": "Schlankes 10.000-mAh-Akku-Pack mit USB-C PD (20W) und zwei USB-A Ausgängen. Lädt Smartphones 3x.",
+    "buy_price": 8.50,
+    "sell_price": 39.99,
+    "image": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=400&h=280&fit=crop",
+    "aliexpress_url": "https://www.aliexpress.com/wholesale?SearchText=10000mah+powerbank+usb+c+pd"
+  },
+  {
+    "id": 19,
+    "name": "Wiederverwendbare Obst-Netzbeutel (8er)",
+    "category": "Nachhaltigkeit",
+    "description": "8-teiliges Set aus Bio-Baumwolle und Netz. Für Obst, Gemüse und Nüsse. Waschbar und langlebig.",
+    "buy_price": 2.80,
+    "sell_price": 15.99,
+    "image": "https://images.unsplash.com/photo-1610348725531-843dff563e2c?w=400&h=280&fit=crop",
+    "aliexpress_url": "https://www.aliexpress.com/wholesale?SearchText=reusable+produce+mesh+bags+cotton"
+  },
+  {
+    "id": 20,
+    "name": "Bambus-Schneidebrett Set",
+    "category": "Küche",
+    "description": "3-teiliges Schneidebrett-Set aus nachhaltigem Bambus in verschiedenen Größen. Antibakteriell und messerschonend.",
+    "buy_price": 6.00,
+    "sell_price": 29.99,
+    "image": "https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=400&h=280&fit=crop",
+    "aliexpress_url": "https://www.aliexpress.com/wholesale?SearchText=bamboo+cutting+board+set+3+piece"
+  },
+  {
+    "id": 21,
+    "name": "UV-C Handy-Desinfektionsbox",
+    "category": "Gesundheit",
+    "description": "UV-C LED Box tötet 99,9% aller Keime auf Smartphones und Schlüsseln. Mit kabellosem Laden.",
+    "buy_price": 8.00,
+    "sell_price": 39.99,
+    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&h=280&fit=crop",
+    "aliexpress_url": "https://www.aliexpress.com/wholesale?SearchText=uv+phone+sanitizer+box+wireless+charging"
+  },
+  {
+    "id": 22,
+    "name": "Isolierte Edelstahl-Trinkflasche",
+    "category": "Sport und Fitness",
+    "description": "Doppelwandige 500ml Vakuumflasche hält Getränke 24h kalt und 12h warm. BPA-frei und auslaufsicher.",
+    "buy_price": 5.20,
+    "sell_price": 26.99,
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400&h=280&fit=crop",
+    "aliexpress_url": "https://www.aliexpress.com/wholesale?SearchText=insulated+stainless+steel+water+bottle+vacuum"
+  },
+  {
+    "id": 23,
+    "name": "Kabelmanagement-Box",
+    "category": "Home Office",
+    "description": "Elegante Aufbewahrungsbox für Ladekabel und Steckdosenleisten aus Bambus-Verbundwerkstoff. Verhindert Kabelsalat.",
+    "buy_price": 5.50,
+    "sell_price": 26.99,
+    "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=400&h=280&fit=crop",
+    "aliexpress_url": "https://www.aliexpress.com/wholesale?SearchText=cable+management+box+desk+organizer"
+  },
+  {
+    "id": 24,
+    "name": "Sicherheitsgurt-Komfortclip (2er)",
+    "category": "Auto-Zubehör",
+    "description": "Ergonomischer Gurt-Positionierer schützt Schulter und Hals. Universal-Fit für alle PKW.",
+    "buy_price": 2.00,
+    "sell_price": 13.99,
+    "image": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=400&h=280&fit=crop",
+    "aliexpress_url": "https://www.aliexpress.com/wholesale?SearchText=seat+belt+adjuster+comfort+clip"
+  },
+  {
+    "id": 25,
+    "name": "Faltbarer USB-Tischventilator",
+    "category": "Smart Home",
+    "description": "Mini-Ventilator mit 3 Stufen, 360° Neigung und geräuscharmem Motor. USB-betrieben, zusammenklappbar.",
+    "buy_price": 3.80,
+    "sell_price": 19.99,
+    "image": "https://images.unsplash.com/photo-1559825481-12a05cc00344?w=400&h=280&fit=crop",
+    "aliexpress_url": "https://www.aliexpress.com/wholesale?SearchText=foldable+usb+desk+fan+mini"
+  }
+    ]
