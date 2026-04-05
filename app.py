@@ -152,21 +152,297 @@ def fetch_tiktok_products():
 
 
 def fetch_aliexpress_products():
-    search_terms = ['trending gadget', 'viral product', 'best seller 2025']
-    return [{
-        'id': f"ali_{term.replace(' ', '_')}",
-        'name': f"AliExpress: {term.title()}",
-        'source': 'AliExpress',
-        'category': 'Bestseller',
-        'trend_score': 80,
-        'link': f"https://www.aliexpress.com/wholesale?SearchText={term.replace(' ', '+')}&SortType=total_tranpro_desc",
-        'description': f'Meistverkaufte Produkte für "{term}" auf AliExpress',
-        'image_url': None,
-        'fetched_at': datetime.utcnow().isoformat()
-    } for term in search_terms]
+    """Kuratierte Liste spezifischer, trendiger Dropshipping-Produkte mit echten Beispiel-Links."""
+    now = datetime.utcnow().isoformat()
+    return [
+        {
+            'id': 'ali_bp_smartwatch',
+            'name': 'Blutdruck-Smartwatch mit EKG & SpO2',
+            'source': 'AliExpress',
+            'category': 'Gesundheit',
+            'trend_score': 980,
+            'link': 'https://de.aliexpress.com/wholesale?SearchText=blood+pressure+smartwatch+ECG+spo2&SortType=total_tranpro_desc',
+            'description': 'Misst Blutdruck, EKG und Sauerstoffsaettigung kontinuierlich. Zielgruppe 40+. EK ca. 20 EUR, VK 60-100 EUR.',
+            'image_url': None,
+            'fetched_at': now
+        },
+        {
+            'id': 'ali_ems_abs',
+            'name': 'EMS Bauchmuskel-Guertel (6 Modi, kabellos)',
+            'source': 'AliExpress',
+            'category': 'Fitness',
+            'trend_score': 850,
+            'link': 'https://de.aliexpress.com/wholesale?SearchText=EMS+abs+trainer+muscle+stimulator+belt&SortType=total_tranpro_desc',
+            'description': 'Elektrischer Muskelstimulator fuer Bauch & Koerper. Viral auf TikTok. EK ca. 5-10 EUR, VK 25-45 EUR.',
+            'image_url': None,
+            'fetched_at': now
+        },
+        {
+            'id': 'ali_massage_gun_mini',
+            'name': 'Mini-Massagepistole faltbar (6 Aufsaetze, USB-C)',
+            'source': 'AliExpress',
+            'category': 'Wellness',
+            'trend_score': 920,
+            'link': 'https://de.aliexpress.com/wholesale?SearchText=mini+foldable+massage+gun+fascia+USB-C&SortType=total_tranpro_desc',
+            'description': 'Kompakte Faszienpistole zum Klappen, USB-C-Ladung, 6 Aufaetze. EK ca. 15-25 EUR, VK 50-80 EUR.',
+            'image_url': None,
+            'fetched_at': now
+        },
+        {
+            'id': 'ali_led_face_mask',
+            'name': 'LED-Lichttherapiemaske (7 Farben, Anti-Akne)',
+            'source': 'AliExpress',
+            'category': 'Beauty',
+            'trend_score': 870,
+            'link': 'https://de.aliexpress.com/wholesale?SearchText=LED+light+therapy+face+mask+7+colors+acne&SortType=total_tranpro_desc',
+            'description': 'Professionelle LED-Maske gegen Akne & Falten. Stark auf TikTok. EK ca. 10-20 EUR, VK 40-70 EUR.',
+            'image_url': None,
+            'fetched_at': now
+        },
+        {
+            'id': 'ali_smart_ring',
+            'name': 'Smart Ring Gesundheitsmonitor (Schlaf, HRV, SpO2)',
+            'source': 'AliExpress',
+            'category': 'Gesundheit',
+            'trend_score': 999,
+            'link': 'https://de.aliexpress.com/wholesale?SearchText=smart+ring+health+monitor+sleep+tracker+HRV&SortType=total_tranpro_desc',
+            'description': 'Schlanker Ring trackt Schlaf, HRV, SpO2 & Schritte ohne Display. Breakout-Trend 2025. EK ca. 30 EUR, VK 90-130 EUR.',
+            'image_url': None,
+            'fetched_at': now
+        },
+        {
+            'id': 'ali_garlic_chopper',
+            'name': 'Elektrischer Knoblauch- & Gemuesehacker (USB)',
+            'source': 'AliExpress',
+            'category': 'Kueche',
+            'trend_score': 780,
+            'link': 'https://de.aliexpress.com/wholesale?SearchText=electric+garlic+chopper+vegetable+USB+rechargeable&SortType=total_tranpro_desc',
+            'description': 'USB-aufladbarer Mini-Zerkleinerer fuer Knoblauch, Zwiebeln & Chili. EK ca. 4-8 EUR, VK 20-35 EUR.',
+            'image_url': None,
+            'fetched_at': now
+        },
+        {
+            'id': 'ali_mini_air_fryer',
+            'name': 'Mini-Heissluftfritteuse 2 Liter (kompakt, fuer 1-2 Personen)',
+            'source': 'AliExpress',
+            'category': 'Kueche',
+            'trend_score': 890,
+            'link': 'https://de.aliexpress.com/wholesale?SearchText=mini+air+fryer+2L+compact+electric+small&SortType=total_tranpro_desc',
+            'description': 'Kompakte Luftfritteuse fuer Singles & Studenten. Sehr gefragt. EK ca. 20-35 EUR, VK 60-90 EUR.',
+            'image_url': None,
+            'fetched_at': now
+        },
+        {
+            'id': 'ali_beeswax_wrap',
+            'name': 'Bienenwachs-Frischhaltefolie nachhaltig (3er-Set)',
+            'source': 'AliExpress',
+            'category': 'Kueche',
+            'trend_score': 680,
+            'link': 'https://de.aliexpress.com/wholesale?SearchText=beeswax+food+wrap+reusable+organic+eco&SortType=total_tranpro_desc',
+            'description': 'Nachhaltige Alternative zu Plastikfolie. Ideal fuer Oeko-Zielgruppe. EK ca. 3-6 EUR, VK 15-25 EUR.',
+            'image_url': None,
+            'fetched_at': now
+        },
+        {
+            'id': 'ali_drawer_organizer',
+            'name': 'Ausziehbarer Kuechenschubladenteiler (kein Kleben)',
+            'source': 'AliExpress',
+            'category': 'Haushalt',
+            'trend_score': 720,
+            'link': 'https://de.aliexpress.com/wholesale?SearchText=expandable+drawer+divider+organizer+kitchen+no+glue&SortType=total_tranpro_desc',
+            'description': 'Flexibler Schubladenteiler ohne Kleben. Trendet auf Pinterest & TikTok. EK ca. 2-5 EUR, VK 12-20 EUR.',
+            'image_url': None,
+            'fetched_at': now
+        },
+        {
+            'id': 'ali_fridge_organizer',
+            'name': 'Kuehlschrank-Organisierboxen stapelbar (4er-Set)',
+            'source': 'AliExpress',
+            'category': 'Haushalt',
+            'trend_score': 810,
+            'link': 'https://de.aliexpress.com/wholesale?SearchText=fridge+organizer+bins+stackable+transparent+set&SortType=total_tranpro_desc',
+            'description': 'Stapelbare transparente Kuehlschrankboxen. Viral auf Instagram. EK ca. 6-12 EUR, VK 25-40 EUR.',
+            'image_url': None,
+            'fetched_at': now
+        },
+        {
+            'id': 'ali_blackhead_vacuum',
+            'name': 'Mitesser-Absauggeraet mit LED-Kamera & App',
+            'source': 'AliExpress',
+            'category': 'Beauty',
+            'trend_score': 830,
+            'link': 'https://de.aliexpress.com/wholesale?SearchText=blackhead+remover+vacuum+suction+camera+app&SortType=total_tranpro_desc',
+            'description': 'Elektrisches Vakuum-Geraet mit eingebauter Kamera & App. Riesiger TikTok-Hit. EK ca. 8-15 EUR, VK 30-50 EUR.',
+            'image_url': None,
+            'fetched_at': now
+        },
+        {
+            'id': 'ali_shower_filter',
+            'name': 'Duschkopf-Wasserfilter gegen Chlor & Kalk (Vitamin C)',
+            'source': 'AliExpress',
+            'category': 'Bad',
+            'trend_score': 760,
+            'link': 'https://de.aliexpress.com/wholesale?SearchText=shower+head+filter+chlorine+vitamin+C+hair&SortType=total_tranpro_desc',
+            'description': 'Filterduschkopf mit Vitamin-C-Kartuschen fuer gesundes Haar. EK ca. 6-12 EUR, VK 25-45 EUR.',
+            'image_url': None,
+            'fetched_at': now
+        },
+        {
+            'id': 'ali_led_mirror',
+            'name': 'LED-Schminkspiegel mit Bluetooth-Lautsprecher',
+            'source': 'AliExpress',
+            'category': 'Bad',
+            'trend_score': 800,
+            'link': 'https://de.aliexpress.com/wholesale?SearchText=LED+makeup+mirror+bluetooth+speaker+light+USB&SortType=total_tranpro_desc',
+            'description': 'Beleuchteter Klappspiegel mit eingebautem BT-Lautsprecher & USB-Ladeport. EK ca. 15-25 EUR, VK 50-80 EUR.',
+            'image_url': None,
+            'fetched_at': now
+        },
+        {
+            'id': 'ali_crystal_hair_eraser',
+            'name': 'Kristall-Haarentferner nano (schmerzfrei, wiederverwendbar)',
+            'source': 'AliExpress',
+            'category': 'Beauty',
+            'trend_score': 770,
+            'link': 'https://de.aliexpress.com/wholesale?SearchText=crystal+hair+eraser+remover+painless+nano+glass&SortType=total_tranpro_desc',
+            'description': 'Nano-Glas-Haarentferner ohne Klinge oder Chemie. Viral auf TikTok. EK ca. 2-4 EUR, VK 15-25 EUR.',
+            'image_url': None,
+            'fetched_at': now
+        },
+        {
+            'id': 'ali_diatomite_mat',
+            'name': 'Diatomit-Badematte ultraschnell trocknend (Steinoptik)',
+            'source': 'AliExpress',
+            'category': 'Bad',
+            'trend_score': 740,
+            'link': 'https://de.aliexpress.com/wholesale?SearchText=diatomite+bath+mat+quick+dry+stone+bathroom&SortType=total_tranpro_desc',
+            'description': 'Steinmatte aus Diatomeenerde, trocknet in Sekunden. Nachhaltig & stilvoll. EK ca. 8-15 EUR, VK 30-50 EUR.',
+            'image_url': None,
+            'fetched_at': now
+        },
+        {
+            'id': 'ali_mini_drone',
+            'name': 'Mini-Drohne mit 4K-Kamera & Faltarmen (GPS-Rueckkehr)',
+            'source': 'AliExpress',
+            'category': 'Drohnen',
+            'trend_score': 950,
+            'link': 'https://de.aliexpress.com/wholesale?SearchText=mini+drone+4K+camera+foldable+GPS+brushless&SortType=total_tranpro_desc',
+            'description': 'Kompakte Einsteiger-Drohne mit 4K-Kamera, GPS-Rueckkehr & 20 Min. Flugzeit. EK ca. 35-60 EUR, VK 90-160 EUR.',
+            'image_url': None,
+            'fetched_at': now
+        },
+        {
+            'id': 'ali_magsafe_wallet',
+            'name': 'MagSafe-Kartenhalter & Geldbeutel fuer iPhone',
+            'source': 'AliExpress',
+            'category': 'Handy-Zubehoer',
+            'trend_score': 820,
+            'link': 'https://de.aliexpress.com/wholesale?SearchText=magsafe+wallet+card+holder+magnetic+iPhone+15&SortType=total_tranpro_desc',
+            'description': 'Magnetisches Karten-Wallet fuer iPhone 12-16 Pro Max. Guenstiger Apple-Klon. EK ca. 3-6 EUR, VK 18-30 EUR.',
+            'image_url': None,
+            'fetched_at': now
+        },
+        {
+            'id': 'ali_portable_cooler',
+            'name': 'Mini-USB-Luftkuehler Desktop (Verdunstungskuehler)',
+            'source': 'AliExpress',
+            'category': 'Smart Home',
+            'trend_score': 860,
+            'link': 'https://de.aliexpress.com/wholesale?SearchText=mini+air+cooler+USB+portable+evaporative+desktop&SortType=total_tranpro_desc',
+            'description': 'Verdunstungskuehler mit Wassertank fuer Schreibtisch & Bett. Sommer-Trendprodukt. EK ca. 10-18 EUR, VK 35-60 EUR.',
+            'image_url': None,
+            'fetched_at': now
+        },
+        {
+            'id': 'ali_smart_plug',
+            'name': 'WLAN-Smart-Stecker EU (Alexa & Google Home)',
+            'source': 'AliExpress',
+            'category': 'Smart Home',
+            'trend_score': 750,
+            'link': 'https://de.aliexpress.com/wholesale?SearchText=smart+plug+wifi+alexa+google+home+EU+energy+monitor&SortType=total_tranpro_desc',
+            'description': 'EU-Stecker mit App-Steuerung & Energiemessung. Dauerhafter Bestseller. EK ca. 3-7 EUR, VK 15-25 EUR.',
+            'image_url': None,
+            'fetched_at': now
+        },
+        {
+            'id': 'ali_bt_keyboard',
+            'name': 'Faltbares Bluetooth-Keyboard Reisetastatur (ultraduenn)',
+            'source': 'AliExpress',
+            'category': 'Buero',
+            'trend_score': 700,
+            'link': 'https://de.aliexpress.com/wholesale?SearchText=foldable+bluetooth+keyboard+mini+travel+wireless+slim&SortType=total_tranpro_desc',
+            'description': 'Ultraduenne BT-Tastatur fuer Smartphone & Tablet. Passt in jede Tasche. EK ca. 8-15 EUR, VK 30-50 EUR.',
+            'image_url': None,
+            'fetched_at': now
+        },
+        {
+            'id': 'ali_filter_bottle',
+            'name': 'Wasserfilter-Trinkflasche 550ml (Survival, Camping)',
+            'source': 'AliExpress',
+            'category': 'Outdoor',
+            'trend_score': 790,
+            'link': 'https://de.aliexpress.com/wholesale?SearchText=water+filter+bottle+survival+purification+hiking+550ml&SortType=total_tranpro_desc',
+            'description': 'Filtert Bakterien & Viren direkt beim Trinken. Camping & Reise-Must-have. EK ca. 8-15 EUR, VK 30-50 EUR.',
+            'image_url': None,
+            'fetched_at': now
+        },
+        {
+            'id': 'ali_solar_powerbank',
+            'name': 'Solar-Powerbank 20000mAh wasserdicht (Outdoor, LED)',
+            'source': 'AliExpress',
+            'category': 'Outdoor',
+            'trend_score': 840,
+            'link': 'https://de.aliexpress.com/wholesale?SearchText=solar+power+bank+20000mAh+waterproof+LED+camping&SortType=total_tranpro_desc',
+            'description': 'Outdoor-Powerbank mit Solarpanel, LED-Taschenlampe & USB-C. EK ca. 12-20 EUR, VK 40-65 EUR.',
+            'image_url': None,
+            'fetched_at': now
+        },
+        {
+            'id': 'ali_wireless_car_charger',
+            'name': 'Magnetischer KFZ-Handyhalter 15W Wireless Charging',
+            'source': 'AliExpress',
+            'category': 'Auto-Zubehoer',
+            'trend_score': 880,
+            'link': 'https://de.aliexpress.com/wholesale?SearchText=magnetic+car+phone+holder+wireless+charger+15W+MagSafe&SortType=total_tranpro_desc',
+            'description': 'Automatischer Klemm-Halter mit kabellosem Schnellladen 15W. Bestseller 2025. EK ca. 12-20 EUR, VK 40-70 EUR.',
+            'image_url': None,
+            'fetched_at': now
+        },
+        {
+            'id': 'ali_resistance_bands',
+            'name': 'Resistance-Bands Stoff-Set 5-teilig (Booty, Gym)',
+            'source': 'AliExpress',
+            'category': 'Fitness',
+            'trend_score': 740,
+            'link': 'https://de.aliexpress.com/wholesale?SearchText=resistance+bands+set+fabric+booty+gym+5+levels&SortType=total_tranpro_desc',
+            'description': 'Stoff-Widerstandsbaender in 5 Staerken fuer Po & Beine. Immergruenprodukt. EK ca. 3-6 EUR, VK 18-30 EUR.',
+            'image_url': None,
+            'fetched_at': now
+        },
+        {
+            'id': 'ali_trekking_pole',
+            'name': 'Carbon-Teleskop-Wanderstock faltbar ultraleicht (Paar)',
+            'source': 'AliExpress',
+            'category': 'Outdoor',
+            'trend_score': 660,
+            'link': 'https://de.aliexpress.com/wholesale?SearchText=carbon+fiber+trekking+pole+folding+ultralight+anti+shock&SortType=total_tranpro_desc',
+            'description': 'Ultraleichtes Carbon-Stockpaar mit Anti-Schock-Daempfung. EK ca. 15-25 EUR, VK 60-90 EUR.',
+            'image_url': None,
+            'fetched_at': now
+        },
+    ]
 
 
-# ── HTML Template (inline) ───────────────────────────────────────────────────────
+
+# ── DB und Cache initialisieren (auch unter Gunicorn) ────────────
+
+with app.app_context():
+    db.create_all()
+    # Kuratierte Produkte direkt beim Start laden
+    products_cache = fetch_aliexpress_products()
+    last_refresh = datetime.utcnow()
+
+
 
 HTML = """<!DOCTYPE html>
 <html lang="de">
